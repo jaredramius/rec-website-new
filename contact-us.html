@@ -22,10 +22,13 @@
 </head>
 
 <body class="landing-page ">
+    <!--     *********    NAVIGATION BAR     *********      -->
+
+<body class="landing-page ">
     <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="index.html"><strong>Recollective</strong> </a>
+                <a class="navbar-brand" href="index.html"><img src="assets/img/-Home/Icon.png" height="30">   Recollective </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
@@ -41,8 +44,21 @@
                         <a class="nav-link" href="services.html"><i class="material-icons">people</i>Services</a>
                     </li>
                     
-                    <li class="nav-item">
-                        <a class="nav-link" href="applications.html"><i class="material-icons">view_quilt</i>Applications</a>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="material-icons">view_quilt</i> Solutions
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="brand.html" class="dropdown-item">
+                                <i class="material-icons">stars</i> Brand
+                            </a>
+                            <a href="agency.html" class="dropdown-item">
+                                <i class="material-icons">supervised_user_circle</i> Agency
+                            </a>
+                            <a href="independent.html" class="dropdown-item">
+                                <i class="material-icons">person_pin</i> Independent Researcher
+                            </a>
+                        </div>
                     </li>
 
                     <li class="dropdown nav-item">
@@ -50,10 +66,10 @@
                             <i class="material-icons">content_paste</i> Resources
                         </a>
                         <div class="dropdown-menu dropdown-with-icons">
-                            <a href="examples/about-us.html" class="dropdown-item">
+                            <a href="about-us.html" class="dropdown-item">
                                 <i class="material-icons">monetization_on</i> Sales Resources
                             </a>
-                            <a href="examples/blog-post.html" class="dropdown-item">
+                            <a href="blog-post.html" class="dropdown-item">
                                 <i class="material-icons">build</i> Services Resources
                             </a>
                         </div>
@@ -67,6 +83,8 @@
             </div>
         </div>
     </nav>
+
+<!--     *********    NAVIGATION BAR END     *********      -->
     <div class="contactus-1 section-image" style="background-image: url('assets/img/examples/city.jpg')">
         <div class="container">
             <div class="row">
@@ -149,41 +167,89 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
+    <!--     *********    FOOTER     *********      -->
+</div>
+<footer class="footer footer-black footer-big">
         <div class="container">
-            <nav class="pull-left">
-                <ul>
-                    <li>
-                        <a href="#creative">
-                            Creative Tim
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#creative">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#creative">
-                            Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#creative">
-                            Licenses
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="copyright pull-right">
-                &copy;
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Get in Touch</h5>
+                        <p>Don't hesitate to ask us something. </p>
+                        <p>+1 888 932 2299 x233 - Canada / USA 
+                        <br>+1 613 230 3808 x233 - International 
+                        <br>+1 613 230 8718 - Fax</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Careers</h5>
+                        <div class="social-feed">
+                            <div class="feed-line">
+                                <i class="material-icons">monetization_on</i>
+                                <p>Sales</p>
+                            </div>
+                            <div class="feed-line">
+                                <i class="material-icons">people</i>
+                                <p>Services</p>
+                            </div>
+                            <div class="feed-line">
+                                <i class="material-icons">build</i>
+                                <p>Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Case Studies</h5>
+                        <div class="gallery-feed">
+                            <img src="assets/img/faces/card-profile6-square.jpg" class="img img-raised rounded" alt="">
+                            <img src="assets/img/faces/christian.jpg" class="img img-raised rounded" alt="">
+                            <img src="assets/img/faces/card-profile4-square.jpg" class="img img-raised rounded" alt="">
+                            <img src="assets/img/faces/card-profile1-square.jpg" class="img img-raised rounded" alt="">
+                            <img src="assets/img/faces/marc.jpg" class="img img-raised rounded" alt="">
+                            <img src="assets/img/faces/kendall.jpg" class="img img-raised rounded" alt="">
+                            <img src="assets/img/faces/card-profile5-square.jpg" class="img img-raised rounded" alt="">
+                            <img src="assets/img/faces/card-profile2-square.jpg" class="img img-raised rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <ul class="float-left">
+                <li>
+                    <a href="#pablo">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="#pablo">
+                        Presentation
+                    </a>
+                </li>
+                <li>
+                    <a href="#pablo">
+                        Discover
+                    </a>
+                </li>
+                <li>
+                    <a href="#pablo">
+                        Payment
+                    </a>
+                </li>
+                <li>
+                    <a href="#pablo">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+            <div class="copyright float-right">
+                ©
                 <script>
                     document.write(new Date().getFullYear())
-                </script>, made with <i class="material-icons">favorite</i> by
-                <a href="https://www.creative-tim.com">Creative Tim</a> for a better web.
+                </script> Ramius Corporation, All Rights Reserved.
             </div>
         </div>
     </footer>
+
+<!--     *********    FOOTER END     *********      -->
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery.min.js"></script>
     <script src="assets/js/core/popper.min.js"></script>
