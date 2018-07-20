@@ -15975,7 +15975,8 @@ select.selectpicker {
   .page-header > .container {
     color: #fff; }
   .page-header .title {
-    color: #fff; }
+    color: #fff; 
+    text-shadow: 2px 2px #474b4b; }
   .page-header.header-small {
     height: 65vh;
     min-height: 65vh; }
