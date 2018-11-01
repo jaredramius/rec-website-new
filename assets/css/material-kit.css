@@ -11690,7 +11690,7 @@ small,
 .footer-big h4,
 .media .media-heading {
   font-weight: 700;
-  font-family: "Roboto Slab", "Times New Roman", serif; }
+  font-family: "Roboto", "Times New Roman", serif; }
   .title,
   .title a,
   .card-title,
@@ -15976,7 +15976,7 @@ select.selectpicker {
     color: #fff; }
   .page-header .title {
     color: #fff; 
-    text-shadow: 2px 2px #474b4b; }
+    text-shadow: 1px 1px #474b4b; }
   .page-header.header-small {
     height: 65vh;
     min-height: 65vh; }
